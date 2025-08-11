@@ -59,14 +59,14 @@ local trust = AimingTab:CreateSector("MAIN", "left")
 trust:AddButton(
     "trust.lua old version",
     function()
-        loadstring(game:HttpGet("https://pastefy.app/hzQNHH36/raw"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sufferedsuccess/roblox/refs/heads/main/camlock_and_silent/trustlua-source/trustluaold.lua"))()
     end
 )
 
 trust:AddButton(
     "trust.lua new version",
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/glokdraco/ghekko/refs/heads/main/loader"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sufferedsuccess/roblox/refs/heads/main/camlock_and_silent/trustlua-source/trustluanew.lua"))()
     end
 )
 
