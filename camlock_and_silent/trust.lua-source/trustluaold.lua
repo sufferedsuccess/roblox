@@ -1,4 +1,4 @@
-loadstring(game: HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
 
 getgenv().Vepar = {
     ['Camlock'] = {
