@@ -10,7 +10,7 @@ if src == "" then
   	Text = "scriptblox is unavailable. using offline version";
 	  Duration = 5;
   })
-  src = game:HttpGet("https://pastebin.com/raw/cA5VbciB", false)
+  src = game:HttpGet("https://pastefy.app/2ZNljEse/raw", false)
 end
 
 loadstring(src)()
